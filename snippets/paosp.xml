@@ -113,7 +113,7 @@
   <project path="packages/apps/SuccApps" name="PAOSP/common_packages_apps_SuccApps" remote="github" revision="o" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
   <project path="frameworks/base" name="VolteROM/android_frameworks_base" remote="github" revision="paosp-o" />
-  <project path="lineage-sdk" name="PAOSP/android_lineage-sdk" />
+  <project path="lineage-sdk" name="PAOSP/android_lineage-sdk" remote="github" revision="paosp-o" />
   <project path="vendor/lineage" name="PAOSP/android_vendor_lineage" remote="github" revision="paosp-o" />
   <project path="packages/apps/Settings" name="PAOSP/android_packages_apps_Settings" remote="github" revision="paosp-o" />
   <project path="hardware/qcom/audio-caf/msm8996" name="VolteROM/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8996" />
