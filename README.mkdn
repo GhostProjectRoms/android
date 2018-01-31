@@ -1,24 +1,17 @@
-PornAOSP - Nougat
+PornAOSP Oreo
 ===========
-
-Introduction
-------------------
-
-PornAOSP is a custom Android distribution based on LineageOS, focused on privacy while doing... emmmm... certain activities.
-
 
 Getting Started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/PornAOSP, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the PornAOSP trees, use a command like this:
 
-    repo init -u git://github.com/PAOSP/porlos_manifest.git -b paosp-n
-
+    repo init -u git://github.com/PAOSP/android.git -b paosp-o
 Then to sync up:
 
     repo sync
 
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions
+Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
