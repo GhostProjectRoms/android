@@ -33,7 +33,6 @@
   <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />-->
-  <project path="lineage-sdk" name="VolteROM/android_lineage-sdk" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
@@ -43,13 +42,11 @@
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
-  <project path="packages/apps/Settings" name="VolteROM/android_packages_apps_Settings" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <!--<project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
-  <project path="vendor/lineage" name="VolteROM/android_vendor_lineage" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
@@ -67,7 +64,6 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="VolteROM/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8998" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="staging/lineage-15.1-caf" />
   <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/lineage-15.1-caf-8084" />
@@ -117,4 +113,8 @@
   <project path="packages/apps/SuccApps" name="PAOSP/common_packages_apps_SuccApps" remote="github" revision="o" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
   <project path="frameworks/base" name="VolteROM/android_frameworks_base" remote="github" revision="paosp-o" />
+  <project path="lineage-sdk" name="VolteROM/android_lineage-sdk" />
+  <project path="vendor/lineage" name="VolteROM/android_vendor_lineage" />
+  <project path="packages/apps/Settings" name="PAOSP/android_packages_apps_Settings" remote="github" revision="paosp-o" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="VolteROM/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8996" />
 </manifest>
