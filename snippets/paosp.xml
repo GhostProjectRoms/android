@@ -4,7 +4,7 @@
 	<remote name="zx2c4" fetch="https://git.zx2c4.com/" />
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="PAOSP/android" remote="github" revision="paosp-o" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
@@ -64,6 +64,7 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="VolteROM/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8998" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="staging/lineage-15.1-caf" />
   <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/lineage-15.1-caf-8084" />
@@ -116,5 +117,4 @@
   <project path="lineage-sdk" name="PAOSP/android_lineage-sdk" remote="github" revision="paosp-o" />
   <project path="vendor/lineage" name="PAOSP/android_vendor_lineage" remote="github" revision="paosp-o" />
   <project path="packages/apps/Settings" name="PAOSP/android_packages_apps_Settings" remote="github" revision="paosp-o" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="VolteROM/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8996" />
 </manifest>
